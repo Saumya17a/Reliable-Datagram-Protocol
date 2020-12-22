@@ -14,18 +14,16 @@ diff read_file_name write_file_name
 on H1 can tell you whether the received file is different from the sent file of length greater than 10,240 bytes.
 In addition to saving the received file for diff, RDP also outputs a log to the screen in the following format
 DATE: EVENT; COMMAND; Sequence|Acknowledgment: Value; Length|Window: Value
-<p>
 where DATE is timestamp and EVENT := Send|Receive. For example,
-Fri Oct 2 16:54:09 PDT 2020: Send; SYN; Sequence: 0; Length: 0
-Fri Oct 2 16:54:09 PDT 2020: Receive; SYN; Sequence: 0; Length: 0
-Fri Oct 2 16:54:09 PDT 2020: Send; ACK; Acknowledgment: 1; Window: 2048
-Fri Oct 2 16:54:09 PDT 2020: Receive; ACK; Acknowledgment: 1; Window: 2048
-Fri Oct 2 16:54:09 PDT 2020: Send; DAT; Sequence: 1; Length: 1024
-Fri Oct 2 16:54:10 PDT 2020: Receive; DAT; Sequence: 1; Length: 1024
-Fri Oct 2 16:54:10 PDT 2020: Send; ACK; Acknowledgment: 1025; Window: 1024
-Fri Oct 2 16:54:10 PDT 2020: Receive; ACK; Acknowledgment: 1025; Window: 1024
-Fri Oct 2 16:54:10 PDT 2020: Send; FIN; Sequence: 1025; Length: 0
-Fri Oct 2 16:54:10 PDT 2020: Receive; FIN; Sequence: 1025; Length: 0
-Fri Oct 2 16:54:10 PDT 2020: Send; ACK; Acknowledgment: 1026; Window: 2048
-Fri Oct 2 16:54:10 PDT 2020: Receive; ACK; Acknowledgment: 1026; Window: 2048
-</p>
+<li> Fri Oct 2 16:54:09 PDT 2020: Send; SYN; Sequence: 0; Length: 0 </li>
+<li>Fri Oct 2 16:54:09 PDT 2020: Receive; SYN; Sequence: 0; Length: 0</li>
+<li>Fri Oct 2 16:54:09 PDT 2020: Send; ACK; Acknowledgment: 1; Window: 2048</li>
+<li>Fri Oct 2 16:54:09 PDT 2020: Receive; ACK; Acknowledgment: 1; Window: 2048</li>
+<li>Fri Oct 2 16:54:09 PDT 2020: Send; DAT; Sequence: 1; Length: 1024</li>
+<li>Fri Oct 2 16:54:10 PDT 2020: Receive; DAT; Sequence: 1; Length: 1024</li>
+<li>Fri Oct 2 16:54:10 PDT 2020: Send; ACK; Acknowledgment: 1025; Window: 1024</li>
+<li>Fri Oct 2 16:54:10 PDT 2020: Receive; ACK; Acknowledgment: 1025; Window: 1024</li>
+<li>Fri Oct 2 16:54:10 PDT 2020: Send; FIN; Sequence: 1025; Length: 0</li>
+<li>Fri Oct 2 16:54:10 PDT 2020: Receive; FIN; Sequence: 1025; Length: 0</li>
+<li>Fri Oct 2 16:54:10 PDT 2020: Send; ACK; Acknowledgment: 1026; Window: 2048</li>
+<li>Fri Oct 2 16:54:10 PDT 2020: Receive; ACK; Acknowledgment: 1026; Window: 2048</li>
